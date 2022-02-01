@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" contesnt="Praktikum 1 (Pengenalan HTML)">
+    <meta name="author" content="Nirmaya Dwi Utami">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+
+</head>
+<body style="background-color: rgb(150, 26, 199);">
+    <table align="center" style="background-color: #FFF; padding: 0.75em; border-radius: 10px;">
+        <tr>
+            <td colspan="3">
+                <h1 style="font-family: Poppins; font-weight: bold; text-align: center;">Form HTML</h1>
+            </td>
+        </tr>
+        <!-- tr : membuat baris baru -->
+        <tr>
+            <!-- td : membuat kolom baru -->
+            <td>Nama</td>
+            <td> : </td>
+            <td>
+                <!-- membuat inputan untuk pengguna berupa teks-->
+                <input type="text" name="nama" style="border:none; border-radius:3px; background-color:rgb(196, 142, 209); padding-top: 0.75em; padding-bottom: 0.75em; padding-left: 10px; padding-right: 0.75em;"></input>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>Gender</td>
+            <td> : </td>
+            <td>
+                <!-- membuat inputan untuk pengguna berupa radio button-->
+                <input type="radio" name="jenis_kelamin" value="F"> Female
+                <br/>
+                <input type="radio" name="jenis_kelamin" value="M"> Male
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>Address</td>
+            <td> : </td>
+            <td>
+                <input type="text" name="alamat" style="border:none; border-radius:3px; background-color:rgb(196, 142, 209); padding-top: 0.75em; padding-bottom: 0.75em; padding-left: 10px; padding-right: 0.75em;"></input>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>Country</td>
+            <td>:</td>
+            <td>
+                <!-- membuat pilihan pengguna menggunakan drop-down -->
+                <select id="country" style="border:none; border-radius:3px; background-color:rgb(196, 142, 209); padding-top: 0.75em; padding-bottom: 0.75em; padding-left: 10px; padding-right: 0.75em;">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="malaysia">Malaysia</option>
+                    <option value="singapura">Singapura</option>
+                    <option value="thailand">Thailand</option>
+                </select>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>Email</td>
+            <td> : </td>
+            <td>
+                <input type="text" name="email" style="border:none; border-radius:3px; background-color:rgb(196, 142, 209); padding-top: 0.75em; padding-bottom: 0.75em; padding-left: 10px; padding-right: 0.75em;"></input>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>Photo</td>
+            <td> : </td>
+            <td>
+                <input type="text" name="photo" style="border:none; border-radius:3px; background-color:rgb(196, 142, 209); padding-top: 0.75em; padding-bottom: 0.75em; padding-left: 10px; padding-right: 0.75em;"></input>
+                <!-- membuat inputan pengguna berupa button -->
+                <input type="submit" value="Browse ... " style="border:none; border-radius: 3px; padding: 10px; background-color:rgb(236, 127, 127); color: #FFF;">
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>Comment</td>
+            <td> : </td>
+            <td>
+                <textarea id="comment" placeholder="Comment ..." rows="4" cols="50" style="border:none; border-radius:3px; background-color:rgb(196, 142, 209); padding-top: 0.75em; padding-bottom: 0.75em; padding-left: 10px; padding-right: 0.75em;"></textarea>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <!-- colspan : menggabungkan 3 kolom menjadi satu -->
+            <!-- align : menentukan tata letak paragraf -->
+            <td colspan="3" align="right">
+                <a href="#">
+                    <input type="submit" value="Submit" style="border:none; border-radius: 3px; padding: 10px; background-color: rgb(236, 127, 127); color: #FFF;">
+                </a>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </table> 
+</body>
+</html>

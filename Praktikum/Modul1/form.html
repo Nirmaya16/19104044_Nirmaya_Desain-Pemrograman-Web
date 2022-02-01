@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" contesnt="Praktikum 1 (Pengenalan HTML)">
+    <meta name="author" content="Nirmaya Dwi Utami">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <!-- Membuat judul dengan heading 1 -->
+    <h1>TUGAS 1</h1>
+    <!-- Membuat sub judul -->
+    <h3>Form HTML</h3>
+    <!-- FORM -->
+    <form action="input.php" method="POST">
+        <!-- TABLE -->
+        <table>
+            <!-- tr : membuat baris baru -->
+            <tr>
+                <!-- td : membuat kolom baru -->
+                <td>Nama</td>
+                <td> : </td>
+                <td>
+                    <!-- membuat inputan untuk pengguna berupa teks-->
+                    <input type="text" name="nama" placeholder="Nama Lengkap"></input>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Gender</td>
+                <td> : </td>
+                <td>
+                    <!-- membuat inputan untuk pengguna berupa radio button-->
+                    <input type="radio" name="jenis_kelamin" value="F"> Female
+                    <br/>
+                    <input type="radio" name="jenis_kelamin" value="M"> Male
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Address</td>
+                <td> : </td>
+                <td>
+                    <input type="text" name="alamat" placeholder="Alamat"></input>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Country</td>
+                <td>:</td>
+                <td>
+                    <!-- membuat pilihan pengguna menggunakan drop-down -->
+                    <select id="country">
+                        <option value="indonesia">Indonesia</option>
+                        <option value="malaysia">Malaysia</option>
+                        <option value="singapura">Singapura</option>
+                        <option value="thailand">Thailand</option>
+                    </select>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Email</td>
+                <td> : </td>
+                <td>
+                    <input type="text" name="email" placeholder="Email"></input>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Photo</td>
+                <td> : </td>
+                <td>
+                    <input type="text" name="photo" value="photo" placeholder="Select your photo"></input>
+                    <!-- membuat inputan pengguna berupa button -->
+                    <input type="submit" value="Browse ... ">
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Comment</td>
+                <td> : </td>
+                <td>
+                    <textarea id="comment" placeholder="Comment ..." rows="4" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <!-- colspan : menggabungkan 3 kolom menjadi satu -->
+                <!-- align : menentukan tata letak paragraf -->
+                <td colspan="3" align="right">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
